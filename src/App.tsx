@@ -8,13 +8,13 @@ function App(): React.JSX.Element {
         <div className="App">
             <header className="App-header">
                 <h1>Welcome to My Application</h1>
-                UD CISC275 with React Hooks and TypeScript
-                <h2>Hello World</h2>
+                HELLO WORLD! ANGEL ASOBO UD CISC275 with React Hooks and
+                TypeScript
             </header>
             <img src={myImage} alt="2024 Boston Celtics" />
             <p>
                 Edit <code>src/App.tsx</code> and save. This page will
-                automatically reload. Angel Asobo
+                automatically reload. \
             </p>
             {/* Added List */}
             <ul>
