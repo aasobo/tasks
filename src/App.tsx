@@ -9,6 +9,7 @@ function App(): React.JSX.Element {
             <header className="App-header">
                 <h1>Welcome to My Application</h1>
                 UD CISC275 with React Hooks and TypeScript
+                <h2>Hello World</h2>
             </header>
             <img src={myImage} alt="2024 Boston Celtics" />
             <p>
@@ -21,7 +22,6 @@ function App(): React.JSX.Element {
                 <li>Second game</li>
                 <li>Third game</li>
             </ul>
-            <h1>Hello World</h1>
             <Button
                 onClick={() => {
                     console.log("Hello World!");
