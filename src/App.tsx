@@ -1,17 +1,63 @@
 import React from "react";
 import "./App.css";
+import myImage from "/Users/angelasobo/Desktop/tasks/src/assets/abozjwk9aj7d1.jpeg";
+import { Button, Container, Row, Col } from "react-bootstrap";
 
 function App(): React.JSX.Element {
     return (
         <div className="App">
             <header className="App-header">
+                <h1>Welcome to My Application</h1>
                 UD CISC275 with React Hooks and TypeScript
             </header>
+            <img src={myImage} alt="2024 Boston Celtics" />
             <p>
                 Edit <code>src/App.tsx</code> and save. This page will
                 automatically reload. Angel Asobo
             </p>
+            {/* Added List */}
+            <ul>
+                <li>First game</li>
+                <li>Second game</li>
+                <li>Third game</li>
+            </ul>
+            <h1>Hello World</h1>
+            <Button
+                onClick={() => {
+                    console.log("Hello World!");
+                }}
+            >
+                Log Hello World
+            </Button>
+
+            <Container>
+                <Row>
+                    <Col>
+                        <div
+                            style={{
+                                width: "100px",
+                                height: "100px",
+                                backgroundColor: "red",
+                            }}
+                        >
+                            Column 1
+                        </div>
+                    </Col>
+                    <Col>
+                        <div
+                            style={{
+                                width: "100px",
+                                height: "100px",
+                                backgroundColor: "red",
+                            }}
+                        >
+                            Column 2
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
         </div>
+
         //Angel Asobo
     );
 }
